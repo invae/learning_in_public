@@ -18,6 +18,8 @@ package cmd
 import (
 	"fmt"
 
+	"client_server/server"
+
 	"github.com/spf13/cobra"
 )
 
@@ -30,7 +32,8 @@ var serverCmd = &cobra.Command{
 Long help for server component
 `,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("server called")
+		fmt.Println("server argument observed")
+		server.Entry()
 	},
 }
 
