@@ -1,13 +1,3 @@
-## vscode
-**/.vscode/
-
-## rust
-
-**/target/
-
-
-## flutter
-
 # Miscellaneous
 *.class
 *.log

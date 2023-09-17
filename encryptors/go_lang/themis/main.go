@@ -27,6 +27,14 @@ func main() {
 	fmt.Print("decrypted: ")
 	fmt.Println(string(decrypted))
 	
+
+//	var x = keys.New()
+
+//	alicePublicKey := &keys.PublicKey{
+  //      Value: []byte("fuckgo"),
+	//}
+
+
 	return
 }
 
