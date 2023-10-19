@@ -33,8 +33,8 @@ end
 
 
 my_dict = { 
- "one" => "eins",
- "two" => "zwei",
+ "one"   => "eins",
+ "two"   => "zwei",
  "three" => "drei",
 }
 

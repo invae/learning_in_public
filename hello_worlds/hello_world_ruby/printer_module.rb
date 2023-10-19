@@ -4,7 +4,7 @@
 def printer(some_string)
   $stdout.puts some_string
   $stdout.flush
-  
+
   return
 end
 

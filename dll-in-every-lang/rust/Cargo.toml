@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "hello_dll",
+    "hello_exe",
+]

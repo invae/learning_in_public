@@ -1,11 +1,12 @@
 VALID_ACTIONS = {
-    "hello" => "hello",
+    "hello" => "hello", 
     "test"  => "test",
 }
 VALID_ACTIONS.each do |k, v|
     action_source_code = './dispatch_functions/' + VALID_ACTIONS[k]
     require action_source_code
 end
+
 
 module Dispatcher
     def Dispatcher.entry(action)
