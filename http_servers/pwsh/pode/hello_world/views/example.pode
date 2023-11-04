@@ -1,0 +1,21 @@
+<html>
+    <title>
+        woah
+    </title>
+    <head>
+      <!-- <link rel="stylesheet" href="/styles/main.css.pode"> -->
+      $(whoami)
+   </head>
+    <body>
+        <br>
+        <span>$([DateTime]::Now.ToString('yyyy-MM-dd HH:mm:ss');)</span>
+        <div>
+            $(
+                Foreach($item in ls) {
+                    echo '<br>'
+                    echo $item;
+                }
+            )
+        </div>
+    </body>
+</html>
