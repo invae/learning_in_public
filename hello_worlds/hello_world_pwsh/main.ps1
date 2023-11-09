@@ -5,5 +5,6 @@ function main {
         [String]
         $string
     )  
+    echo $string
 }
 main $args[0]
