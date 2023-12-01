@@ -143,8 +143,8 @@ while (1) {
     # https://pode.readthedocs.io/en/latest/Servers/TCP/#wildcard
     if ($client.Connected) {
         Write-Output "$INFO_MSG client connected!"
-        # serve_client($client)
-        Invoke-Command $some_block -ArgumentList $client
+        serve_client($client)
+        # Invoke-Command $some_block -ArgumentList $client
     }
 
     # $prompt = Read-Host 'continue? [y/n]'
