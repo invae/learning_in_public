@@ -8,6 +8,6 @@ use ezlogs::{
 use crate::part_1;
 
 pub fn entry(input: &str) -> String {
-    warn("todo");
+    warn("part_2 todo");
     return String::from(input);
 }

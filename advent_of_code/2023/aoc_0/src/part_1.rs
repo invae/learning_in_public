@@ -6,6 +6,6 @@ use ezlogs::{
 };
 
 pub fn entry(input: &str) -> String {
-    warn("todo");
+    warn("part_1 todo");
     return String::from(input);
 }

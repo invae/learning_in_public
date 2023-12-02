@@ -54,3 +54,5 @@ app.*.map.json
 /android/app/release
 # Tauri
 **/.xwin-cache/
+# AoC
+**/input.txt

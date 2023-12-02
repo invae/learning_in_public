@@ -10,8 +10,9 @@ use ezlogs::{
 
 fn main() {
     let input = include_str!("../input.txt");
-    let output_1 = part_1::entry(input);
+    let output_1 = part_1::entry(input.trim());
     let output_2 = part_2::entry(&output_1);
     let msg = format!("input.txt contents: {}", output_2);
     info(&msg);
+    errr("solution incomplete");
 }
